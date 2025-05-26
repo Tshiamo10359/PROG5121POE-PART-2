@@ -1,3 +1,5 @@
+(Mainn.java)
+
 public class Mainn {
     public static void main(String[] args) {
         MessageManager manager = new MessageManager();
@@ -5,6 +7,8 @@ public class Mainn {
     }
 }
 
+
+(MessageManager.java)
 
 import javax.swing.*;
 import java.io.*;
@@ -98,6 +102,7 @@ public class MessageManager {
 }
 
 
+(Message.java)
 
 import java.util.Random;
 
